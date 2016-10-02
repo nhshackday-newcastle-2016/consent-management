@@ -5,9 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "grunt": "~1.0.1",
-    "grunt-contrib-requirejs": "~1.0.0",
-    "grunt-sass": "~1.2.1",
     "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-requirejs": "~1.0.0",
+    "grunt-sass": "^1.2.1",
     "matchdep": "~1.0.1"
   },
   "scripts": {

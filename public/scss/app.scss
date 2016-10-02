@@ -40,8 +40,24 @@
 //   "foundation/components/visibility";
 
 body {
-    background: url('../images/clean_textile.png') repeat;
-    background-size: 420px 420px;
+    background: #009888; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#009888, #005355); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#009888, #005355); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#009888, #005355); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#009888, #005355); /* Standard syntax */
+    //background-size: 420px 420px;
+}
+
+h1 {
+    margin-top: 0;
+    color: white;
+
+}
+
+.logoheader {
+  align-items: right;
+  padding: 20px;
+
 }
 
 .twitter-typeahead {
@@ -80,6 +96,7 @@ body {
     text-align: center;
     .button {
         margin-top: 20px;
+        background-color: #9ad2ce;
     }
 }
 
@@ -107,6 +124,11 @@ body {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     body{
-        background-image: url('../images/clean_textile_@2X.png');
+      background: #009888; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(#009888, #005355); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#009888, #005355); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#009888, #005355); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#009888, #005355); /* Standard syntax */
+      //background-size: 420px 420px;
     }
 }
